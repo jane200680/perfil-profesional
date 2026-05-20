@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #952677, #e248b4);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.perfil img {
+    width: 160px;
+    height: 160px;
+    border-radius: 30%;
+    border: 4px solid #FDFBD4;
+    object-fit: cover;
+    margin-bottom: 10px;
+    object-position: 50% 20%;
+}
+
+.perfil h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.perfil h2 {
+    font-size: 20px;
+    color: #FDFBD4;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #eb25e5;
+    margin-bottom: 12px;
+}
+
+.card p,
+.card li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2 i{
+    color: #eb25e5;
+    margin-right: 10px;
+    font-size: 24px;
+}
+ul {
+    padding-left: 25px;
+}
+
+.contacto {
+    border-left: 6px solid #b41093;
+    grid-column: span 2;
+    max-width: 500px;
+    margin: auto;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
